@@ -1,6 +1,6 @@
 ## 在react脚手架开发中可能遇到跨域问题需要使用代理解决
 
-```react
+```javascript
 //文件路径为src/
 /*
 const proxy = require("http-proxy-middleware");
