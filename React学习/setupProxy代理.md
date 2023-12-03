@@ -2,11 +2,11 @@
 
 ```javascript
 //文件路径为src/
-/*
+
 const proxy = require("http-proxy-middleware");
-//引入方式在最新版中变更为
+//注意⚠️引入方式在最新版中变更为
 const { createProxyMiddleware } = require('http-proxy-middleware');
-*/
+
 
 module.exports = function (app) {
 	app.use(
